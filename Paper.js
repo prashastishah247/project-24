@@ -1,5 +1,5 @@
 class Paper {
-    constructer(x, y) {
+    constructor(x, y) {
  var options = {
     isStatic: false,
     resistution: 0.3,
@@ -22,7 +22,7 @@ display()
     
    
     strokeWeight(3)
-    fill("white")
+    fill("pink")
     ellipse(pos.x, pos.y, this.r, this.r)
     
 
